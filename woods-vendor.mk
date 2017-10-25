@@ -4,7 +4,7 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/motorola/woods/etc,
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/motorola/woods/lib,system/lib)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/motorola/woods/priv-app,system/priv-app)
+#PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/motorola/woods/priv-app,system/priv-app)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/motorola/woods/usr,system/usr)
 
