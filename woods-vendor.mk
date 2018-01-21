@@ -1,3 +1,15 @@
+<<<<<<< HEAD:woods-vendor.mk
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/motorola/woods/bin,system/bin)
+
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/motorola/woods/etc,system/etc)
+
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/motorola/woods/lib,system/lib)
+
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/motorola/woods/priv-app,system/priv-app)
+=======
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/moto/e4/usr,system/usr)
+>>>>>>> ae033f6... bringup O:e4-vendor.mk
+
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/motorola/woods/usr,system/usr)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/motorola/woods/vendor/bin,system/vendor/bin)
